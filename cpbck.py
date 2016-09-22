@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+#拷贝当前文件夹下的文件
+
 import sys
 import os
 import shutil
@@ -32,6 +35,7 @@ if __name__ == '__main__':
 #    input('\n\nwaiting......')
     shutil.move("cpbck.py", "D:\\pyBackup\\copy\\%s" %str_time)
 #    os.remove("amend_c.py")
+
 '''
 #文件处理        
     src_files = os.listdir()
